@@ -1,3 +1,4 @@
+/* #region settings */
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root {
@@ -9,6 +10,59 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Nunito, sans-serif;
 }
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1140px;
+}
+/* #endregion */
+
+
+
+/* #region header */
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-default);
+    color: var(--color-default);
+}
+
+.logo {
+    display: flex;
+}
+.logo h1 {
+    font-size: 100px;
+}
+
+.menu {
+    display: flex;
+    height: 120px;
+}
+.menu ul {
+    display: flex;
+}
+.menu ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: var(--color-default);
+    padding: 10px;
+}
+.menu ul li a:hover{
+    background-color: rgba(128, 128, 128, 0.6);
+    border-radius: 10px;
+    transition: 400ms;
+}
+
+/* #endregion */
 
 
