@@ -1,0 +1,107 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700[PT++Mono]);
+
+:root {
+    --primary-color: lightcoral;
+    --secondary-color: rgb(162, 162, 162);
+    --tertiary-color: rgb(239, 239, 239);
+
+    --black-color: #343434;
+    --white-color: #fafafa;
+}
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Lato, sans-serif;
+}
+
+
+
+/* #region CALCULATOR */
+body {
+    background-image: url('/modulo-introducao/gorjeta-propina-montevideu.jpg');
+    background-size: cover;
+}
+
+#container {
+    height: 535px;
+    width: 365px;
+    margin: 100px auto;
+    background-color: var(--tertiary-color);
+    box-shadow: 10px 10px 10px var(--black-color);
+    border-radius: 20px;
+}
+
+.title {
+    background-color: #fdfdfd;
+    padding: 30px;
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    font-weight: normal;
+}
+
+.tipsForm {
+    padding-left: 20px;
+}
+
+.inputForm {
+    background: var(--white-color);
+    width: 100px;    
+    padding: 5px 5px 10px 10px;
+}
+.inputForm:focus {
+    border: 3px solid var(--primary-color);
+    outline: none;
+}
+
+.selectForm {
+    width: 180px;
+    padding: 5px;
+}
+
+.submitForm {
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin: 40px 65px;
+    padding: 20px;
+    background: var(--primary-color);
+    border-radius: 10px;
+    width: 200px;
+    font-size: 15px;
+    color: var(--white-color);
+    border: 0;
+    box-shadow: 5px 5px 5px #454545;
+}
+.submitForm:hover {
+    color: #dedede;
+    background-color: #434343;
+    transition: 500ms;
+}
+/* #endregion */
+
+
+
+/* #region MISCELLANEOUS  */
+.quantity {
+    margin: 10px 80px;
+}
+
+.quality {
+    margin: 10px 80px;
+}
+
+.people {
+    margin: 10px 80px;
+}
+/* #endregion */
+
+
+#totalTip{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5px;
+    padding-top: 5px;
+}
