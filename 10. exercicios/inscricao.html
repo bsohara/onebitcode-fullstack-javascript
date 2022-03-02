@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inscrição - curso de astronauta</title>
+  </head>
+  <body>
+    <h2>Cadastro da liga dos astronautas</h2>
+    <form action="/01. HTML/index.html">
+      <div>
+        <label for="name">Nome: </label>
+        <input type="text" id="name" name="name" required />
+      </div>
+      
+      <br>
+
+      <div>
+        <label for="email">E-mail: </label>
+        <input type="email" id="email" name="email" required />
+        -
+        <label for="password">Senha: </label>
+        <input type="password" id="password" name="password" required />
+      </div>
+      
+      <br>
+
+      <div>
+        <label for="birthdate">Data de nascimento: </label>
+        <input type="date" id="birthdate" name="birthdate" required />
+        -
+        <label for="photo">Foto</label>
+        <input type="file" id="photo" name="photo" />
+      </div>
+      
+      <br>
+
+      <div>
+        <label for="nationality">Nacionalidade: </label>
+        <input list="nationality" />
+        <datalist id="nationality">
+          <option value="russian">Russo</option>
+          <option value="american">Americano</option>
+          <option value="brazilian">Brasileiro</option>
+        </datalist>
+        -
+        <label for="gender">Gênero: </label>
+        <input type="radio" id="female" name="gender" value="female" />
+        <label for="female">F</label>
+        <input type="radio" id="male" name="gender" value="male" />
+        <label for="male">M</label>
+      </div>
+      
+      <br>
+
+      <div>
+        <label for="skills">Habilidades: </label>
+        <input type="checkbox" id="intelligence" name="skills" />
+        <label for="intelligence">Inteligência</label>
+        <input type="checkbox" id="charisma" name="skills" />
+        <label for="charisma">Carisma</label>
+        <input type="checkbox" id="agility" name="skills" />
+        <label for="agility">Agilidade</label>
+        <input type="checkbox" id="luck" name="skills" />
+        <label for="luck">Sorte</label>
+      </div>
+      
+      <br>
+
+      <div>
+        <textarea
+          name="tellUs"
+          id="tellUs"
+          cols="30"
+          rows="10"
+          placeholder="Por que você gostaria de ser um astronauta?"
+        ></textarea>
+      </div>
+      
+      <br>
+
+      <input type="submit" value="Criar" />
+    </form>
+  </body>
+</html>
