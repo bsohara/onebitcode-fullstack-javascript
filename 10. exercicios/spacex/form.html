@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Form - SpaceX</title>
+    <title>Hire Us! - SpaceX</title>
   </head>
   <body>
     <header>
@@ -18,5 +18,58 @@
     </header>
 
     <hr />
+
+    <article>
+      <h2>Hire Us Now</h2>
+      <p>
+        Leave a message to request one of our services and we will get back to
+        you as soon as possible.
+      </p>
+
+      <br />
+
+      <div>
+        <form action="./home.html">
+          <div>
+            <label for="fullname">Name: </label>
+            <input type="text" id="fullname" name="fullname" placeholder="your name"/>
+
+            -
+
+            <label for="mail">E-mail</label>
+            <input type="mail" id="mail" name="mail" placeholder="your mail" />
+          </div>
+
+          <br />
+
+          <div>
+            <label for="spaceshipList">Spaceship: </label>
+            <select name="spaceshipList" id="spaceshipList">
+              <option value="none" selected>-- none --</option>
+              <option value="Falcon9">Falcon 9</option>
+              <option value="FalconHeavy">FALCON HEAVY</option>
+            </select>
+
+            -
+
+            <label for="service">Type of Service: </label>
+            <input list="services" id="service" name="service">
+
+            <datalist id="services">
+              <option value="Lorem ipsum dolor sit amet,"></option>
+              <option value="Maecenas a commodo tortor."></option>
+              <option value="Proin varius feugiat nisi venenatis scelerisque."></option>
+              <option value="Maecenas id justo sed neque molestie euismod sit amet ut tellus."></option>
+            </datalist>
+          </div>
+
+          <br>
+
+          <div>
+            <input type="submit" value="Send message">
+          </div>
+        </form>
+      </div>
+    </article>
   </body>
 </html>
