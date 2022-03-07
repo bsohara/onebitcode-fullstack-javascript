@@ -1,0 +1,15 @@
+li > div > h3 {
+    border-bottom: 1px solid #424242;
+}
+
+li:nth-of-type(4){
+    color: #dafece;
+}
+
+li a {
+    color: #32dacc;
+}
+
+ul + li {
+    border-bottom: 1px solid #222;
+}
