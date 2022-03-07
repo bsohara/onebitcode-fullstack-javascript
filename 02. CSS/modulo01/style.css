@@ -7,7 +7,7 @@ body {
 
 .container {
     display: flex;
-    flex-wrap: wrap;
+    width: 1140px;
     justify-content: center;
     align-items: center;
 }
@@ -17,6 +17,7 @@ header {
     justify-content: space-around;
     align-items: center;
     height: 120px;
+    background-color: rgba(128, 128, 128, 0.75);
 }
 
 .logo {
@@ -25,7 +26,9 @@ header {
 }
 .menu ul {
     display: flex;
+    justify-content: center;
 }
 .menu li {
-    padding: 20px;
+    padding: 10px;
+    margin-left: 40px;
 }
