@@ -17,7 +17,10 @@ header {
     justify-content: space-around;
     align-items: center;
     height: 120px;
-    background-color: rgba(128, 128, 128, 0.75);
+    background-color: rgba(128, 128, 128, 0.95);
+}
+header h1 {
+    color: #fff;
 }
 
 .logo {
@@ -31,4 +34,16 @@ header {
 .menu li {
     padding: 10px;
     margin-left: 40px;
+}
+.menu a {
+    text-decoration: none;
+    color: rgba(200, 200, 200, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+}
+.menu a:hover {
+    background-color: #fff;
+    color: #999;
+    transition: 800ms;
+    border-radius: 10px;
 }
