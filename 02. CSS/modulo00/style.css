@@ -4,10 +4,21 @@ section {
 ul {
     list-style: square;
 }
-li {
-    color: green;
-}
 h1{
     color: purple;
     font-size: 50px;
+}
+
+#first {
+    color: red;
+}
+#second {
+    font-size: 40px;
+}
+#third {
+    font-style: italic;
+}
+.fourth {
+    font-variant-caps: all-small-caps;
+    letter-spacing: 5px;
 }

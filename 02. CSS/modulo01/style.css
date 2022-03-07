@@ -3,6 +3,10 @@ body {
     padding:0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+
+    background-image: url("https://wallpaperaccess.com/full/19602.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .container {
@@ -17,7 +21,12 @@ header {
     justify-content: space-around;
     align-items: center;
     height: 120px;
-    background-color: rgba(128, 128, 128, 0.95);
+    background-color: rgba(63, 63, 63, 0.75);
+    width: 100%;
+    position: fixed;
+    left: 0;
+    right: 0;
+    up: 0;
 }
 header h1 {
     color: #fff;
@@ -46,4 +55,8 @@ header h1 {
     color: #999;
     transition: 800ms;
     border-radius: 10px;
+}
+
+main {
+    height: 500px;
 }
