@@ -5,11 +5,27 @@ li > div > h3 {
 li:nth-of-type(4){
     color: #dafece;
 }
+li:nth-of-type(3){
+    font-style: italic;
+    color: #32ffdc;
+}
 
 li a {
     color: #32dacc;
 }
 
+#first-list li a {
+    background-color: #666;
+}
+
 ul + li {
     border-bottom: 1px solid #222;
+}
+
+#second-list li a {
+    background-color: #222;
+}
+
+div, a {
+    padding: 1px;
 }
