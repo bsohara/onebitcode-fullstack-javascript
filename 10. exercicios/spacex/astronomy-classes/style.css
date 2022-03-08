@@ -6,22 +6,25 @@ h1 {
     color: #fff;
 }
 
-h3 {
+div {
+    color: #fff;
+}
+
+div[id="days-of-week"] > h3 {
     color: #f1c40f;
 }
 
-#days-of-week {
-    color: #fff;
-}
-
-#astronomy-class {
-    color: #e74c3c;
-}
-
-#activities h2 {
+div[id="activities"] h2 {
     background-color: #f1c40f;
+    color: #000;
+    border: 2px solid;
 }
 
-#activities ul {
-    color: #fff;
+li[id="astronomy-class"] {
+    color: rgb(172, 107, 107);
 }
+
+
+/* ======================================================================= */
+/* ======================================================================= */
+
