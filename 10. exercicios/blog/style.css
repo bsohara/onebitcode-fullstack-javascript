@@ -1,0 +1,32 @@
+/*
+- fontes 
+1. Elemento H1 = Montserrat
+2. Elementos com a classe date = Roboto
+3. Elementos com a classe post-content = Open Sans
+
+- cores
+1. Background dos posts = #fffafa
+2. Cor da data = #008080
+*/
+body {
+    margin: auto 200px;
+}
+
+.post {
+    background-color: #fffafa;
+    padding: 10px 30px;
+}
+
+.post h1 {
+    font-family: Montserrat;
+}
+
+.date {
+    font-family: Roboto;
+    color: #008080;
+}
+
+
+.post-content {
+    font-family: 'Open Sans';
+}
