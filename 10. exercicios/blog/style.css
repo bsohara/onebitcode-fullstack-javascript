@@ -30,3 +30,29 @@ body {
 .post-content {
     font-family: 'Open Sans';
 }
+
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+}
+.head-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1140px;
+}
+.logo {
+    display: flex;
+}
+.menu {
+    display: flex;
+}
+.menu ul {
+    display: flex;
+}
+.menu li {
+    padding-right: 30px;
+}
