@@ -8,16 +8,11 @@
 1. Background dos posts = #fffafa
 2. Cor da data = #008080
 */
-<<<<<<< HEAD
-body {
-    margin: auto 300px;
-=======
 
 .post-container {
     background-color:#fffafa;
     width: 70%;
     margin: 0px auto 0px auto;
->>>>>>> 51016c04816c44f2e00366869561dc967e182db9
 }
 
 .post {
