@@ -8,24 +8,34 @@
 1. Background dos posts = #fffafa
 2. Cor da data = #008080
 */
+<<<<<<< HEAD
 body {
     margin: auto 300px;
+=======
+
+.post-container {
+    background-color:#fffafa;
+    width: 70%;
+    margin: 0px auto 0px auto;
+>>>>>>> 51016c04816c44f2e00366869561dc967e182db9
 }
 
 .post {
     background-color: #fffafa;
-    padding: 10px 40px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .post h1 {
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .date {
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     color: #008080;
 }
-
 
 .post-content {
     font-family: 'Open Sans';
