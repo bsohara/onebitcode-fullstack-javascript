@@ -10,58 +10,31 @@
   color: white;
   min-height: 100vh;
   display: flex;
-  column-gap: 25px;
+  gap: 5px;
 
   /* flex-direction: column; */
   /* flex-direction: column-reverse; */
   /* flex-direction: row; */
-  flex-direction: row-reverse;
+  /* flex-direction: row-reverse; */
 
-  /* column-gap: ;
-    row-gap: ; */
+  /* flex-wrap: wrap;
+  flex-wrap: nowrap;
+  flex-wrap: wrap-reverse; */
+
+  /* flex-flow: row wrap;
+  flex-flow: row nowrap;
+  flex-flow: row wrap-reverse;
+  flex-flow: row-reverse nowrap; */
+
+  /* flex-basis: 150px;
+  flex-grow: 1;
+  flex-shrink: 1; */
+
+  /* flex: 1 1 150px; */
 }
 
 .flex-item {
   background-color: #ff0044;
   border: 1px solid white;
-}
-
-.flex-container2 {
-  box-sizing: border-box;
-  padding: 10px;
-  background-color: black;
-  color: white;
-  min-height: 100vh;
-  display: flex;
-  gap: 10px;
-
-  /* flex-wrap: wrap; */
-  /* flex-wrap: nowrap; */
-  /* flex-wrap: wrap-reverse; */
-}
-
-.flex-item2 {
-  background-color: #ff0044;
-  border: 1px solid white;
-}
-
-
-.flex-container3 {
-  box-sizing: border-box;
-  padding: 10px;
-  background-color: black;
-  color: white;
-  min-height: 100vh;
-  display: flex;
-  gap: 10px;
-
-  flex-flow: row wrap;
-  /* flex-flow: row nowrap; */
-  /* flex-flow: row wrap-reverse; */
-  /* flex-flow: row-reverse nowrap; */
-}
-
-.flex-item3 {
-  background-color: #ff0044;
-  border: 1px solid white;
+  flex-basis: 400px;
 }
