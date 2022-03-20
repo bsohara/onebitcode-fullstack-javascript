@@ -55,6 +55,7 @@ header a {
   width: 70%;
   height: 350px;
   background-color: #000000;
+  padding: 40px;
 }
 
 .sidebar {
@@ -79,6 +80,7 @@ header a {
   font-weight: 500;
   font-size: 35px;
   color: #eaeaea;
+  opacity: 0.75;
 }
 .topic:nth-child(1) {
   background-size: cover;
@@ -100,4 +102,19 @@ header a {
   background-size: cover;
   background-position: center;
   background-image: url("https://ak.picdn.net/shutterstock/videos/1042776214/thumb/1.jpg");
+}
+
+.carrousel {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+}
+.car-pages {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 1px solid #999;
+}
+.selected {
+  background-color: #555;
 }
