@@ -53,9 +53,12 @@ header a {
 .main-contents {
   margin: 20px auto;
   width: 70%;
-  height: 350px;
+  height: 100px;
   background-color: #000000;
   padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .sidebar {
@@ -106,7 +109,7 @@ header a {
 
 .carrousel {
   display: flex;
-  gap: 25px;
+  gap: 15px;
   justify-content: center;
 }
 .car-pages {
