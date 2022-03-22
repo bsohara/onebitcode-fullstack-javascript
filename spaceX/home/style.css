@@ -53,7 +53,7 @@ header a {
 .main-contents {
   margin: 20px auto;
   width: 70%;
-  height: 100px;
+  height: 50%;
   background-color: #000000;
   padding: 40px;
   display: flex;
