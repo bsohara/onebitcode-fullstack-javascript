@@ -1,0 +1,74 @@
+/* #region SYSTEM SETTINGS */
+:root {
+  --color-60: #1e2145;
+  --color-30: #2e1a44;
+  --color-10: #16363e;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  box-sizing: border-box;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 2fr 400px;
+  grid-auto-rows: minmax(70px, auto);
+  background-color: var(--color-60);
+  font-family: Nunito, sans-serif;
+}
+/* #endregion */
+
+/* #region 1. HEADER */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  grid-column: 1/4;
+  padding: 10px;
+  background-color: #232323;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.search {
+    display: flex;
+    gap: 10px;
+}
+.search-form {
+    width: 350px;
+    padding: 0 10px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+}
+.lupa {
+    background-color: #555;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+/* #endregion */
+
+
+section {
+    grid-column: 1/2;
+    grid-row: 2/auto;
+    background-color: rgb(116, 75, 75);
+}
+
+.sidebar {
+    grid-column: 3/4;
+    grid-row: 2/auto;
+    background-color: #777;
+}
