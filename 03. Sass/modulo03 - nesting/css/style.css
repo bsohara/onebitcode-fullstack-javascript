@@ -1,0 +1,39 @@
+.classe1 ul {
+  background-color: #999900;
+}
+.classe1 li {
+  background-color: #4444ff;
+  padding: 10px 20px;
+}
+.classe1 button {
+  background-color: #123456;
+  padding: 20px;
+  border: none;
+}
+.classe1 button:hover {
+  background-color: #789abc;
+  transition: 500ms;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+}
+header .menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 2%;
+}
+header .menu ul {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+}
+header .menu li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*# sourceMappingURL=style.css.map */

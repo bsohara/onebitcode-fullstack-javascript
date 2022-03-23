@@ -1,0 +1,50 @@
+$ul-bgc: #999900;
+$li-bgc: #4444ff;
+$btn-bgc: #123456;
+
+.classe1 {
+   ul {
+        background-color: $ul-bgc;
+   }
+
+   li {
+        background-color: $li-bgc;
+        padding: 10px 20px;
+   }
+
+   button {
+       background-color: $btn-bgc;
+       padding: 20px;
+       border: none;
+
+       &:hover {
+           background-color: #789abc;
+           transition: 500ms;
+       }
+   }
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+
+
+    .menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-right: 2%;
+
+        ul {
+            display: flex;
+            gap: 10px;
+            list-style: none;
+        }
+
+        li {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
