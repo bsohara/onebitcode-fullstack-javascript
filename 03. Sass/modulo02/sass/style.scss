@@ -1,0 +1,21 @@
+$btn-color: #ff4043;
+$hover-color: #fff;
+$width-btn: 100px;
+$opacity-btn: 0.5;
+
+.btn1 {
+    width: $width-btn;
+    background-color: $btn-color;
+}
+.btn1:hover {
+    color: $hover-color;
+    opacity: $opacity-btn;
+}
+.btn2 {
+    width: $width-btn;
+    background-color: $btn-color;
+}
+.btn2:hover {
+    color: $hover-color;
+    opacity: $opacity-btn;
+}

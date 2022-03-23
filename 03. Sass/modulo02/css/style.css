@@ -1,0 +1,21 @@
+.btn1 {
+  width: 100px;
+  background-color: #ff4043;
+}
+
+.btn1:hover {
+  color: #fff;
+  opacity: 0.5;
+}
+
+.btn2 {
+  width: 100px;
+  background-color: #ff4043;
+}
+
+.btn2:hover {
+  color: #fff;
+  opacity: 0.5;
+}
+
+/*# sourceMappingURL=style.css.map */
