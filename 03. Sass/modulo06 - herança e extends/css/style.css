@@ -1,0 +1,23 @@
+.btn, .btn.btn-azul, .btn.btn-amarelo, .btn.btn-roxo {
+  width: 125px;
+  padding: 10px 0;
+  cursor: pointer;
+  border-radius: 20px;
+  border: none;
+  display: block;
+  margin-top: 10px;
+}
+.btn.btn-roxo {
+  background-color: #800080;
+  color: #fff;
+}
+.btn.btn-amarelo {
+  background-color: #ffff00;
+  color: #fff;
+}
+.btn.btn-azul {
+  background-color: #6565ff;
+  color: #fff;
+}
+
+/*# sourceMappingURL=style.css.map */

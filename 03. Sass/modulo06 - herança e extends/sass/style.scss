@@ -1,0 +1,33 @@
+$purple-color: #800080;
+$yellow-color: #ffff00;
+$blue-color: #6565ff;
+
+$white-def: #fff;
+
+.btn {
+    width: 125px;
+    padding: 10px 0;
+    cursor: pointer;
+    border-radius: 20px;
+    border: none;
+    display: block;
+    margin-top: 10px;
+
+    &.btn-roxo {
+        @extend .btn;
+        background-color: $purple-color;
+        color: $white-def;
+    }
+
+    &.btn-amarelo {
+        @extend .btn;
+        background-color: $yellow-color;
+        color: $white-def;
+    }
+
+    &.btn-azul {
+        @extend .btn;
+        background-color: $blue-color;
+        color: $white-def;
+    }
+}

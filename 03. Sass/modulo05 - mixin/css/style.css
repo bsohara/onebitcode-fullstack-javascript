@@ -1,0 +1,18 @@
+.tests {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.tests h1 {
+  color: #ff4044;
+  font-family: Arial;
+  font-size: 40px;
+}
+.tests p {
+  color: #441011;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -8,6 +8,12 @@
   padding: 10px 15px;
   border: 1px solid red;
   background-color: #ff4;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+.btn:hover {
+  background-color: #ffa;
 }
 
 /*# sourceMappingURL=style.css.map */
