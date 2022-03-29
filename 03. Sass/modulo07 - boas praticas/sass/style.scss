@@ -1,0 +1,11 @@
+$bgc-color: #ffaa33;
+$font-color: #456777;
+
+
+.example {
+    background-color: $bgc-color;
+
+    p {
+        font-size: 30px;
+    }
+}
