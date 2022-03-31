@@ -1,13 +1,14 @@
-$bgc-color: #ffaa33;
-$font-color: #456777;
+//importações - padrão
+//1. colors
+@import "./variables/colors/colors.scss";
+
+//2. commmon
+@import "./variables/common/common.scss";
+
+//importações - elementos distintos
+//1. cadastro
+@import "../sass/pages/cadastro.scss";
 
 
-.example {
-    background-color: $bgc-color;
-
-    p {
-        font-size: 20px;
-        padding: 35px 40px;
-        text-align: justify;
-    }
-}
+//2. login
+@import "../sass/pages/login.scss";
