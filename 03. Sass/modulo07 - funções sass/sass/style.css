@@ -1,0 +1,16 @@
+/*#title {
+    color: mix(red, yellow, 40%);
+}*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+  height: 100vh;
+  background-color: #daceff;
+  color: black;
+}
+
+/*# sourceMappingURL=style.css.map */
