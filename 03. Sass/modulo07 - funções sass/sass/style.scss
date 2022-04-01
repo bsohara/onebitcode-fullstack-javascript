@@ -2,6 +2,8 @@
     color: mix(red, yellow, 40%);
 }*/
 
+$defaultFont: Arial, Helvetica, sans-serif;
+
 @function colorTitle($background-color){
     @if(lightness($background-color) > 50){
         @return black;
@@ -19,6 +21,7 @@
 * {
     margin:0;
     padding:0;
+    font-family: $defaultFont;
 }
 
 .title {
