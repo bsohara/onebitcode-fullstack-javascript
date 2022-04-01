@@ -1,7 +1,16 @@
-$bgc-color: #ffaa33;
-$font-color: #456777;
+//importações - padrão
+//1. colors
+@import "./variables/colors/colors.scss";
+
+//2. commmon
+@import "./variables/common/common.scss";
+
+//importações - elementos distintos
+//1. cadastro
+@import "../sass/pages/cadastro.scss";
 
 
+<<<<<<< HEAD
 .example {
     background-color: $bgc-color;
 
@@ -23,3 +32,7 @@ button {
         color: #aaa;
     }
 }
+=======
+//2. login
+@import "../sass/pages/login.scss";
+>>>>>>> 51746f55d9926dafdff54cafb75ae2a49f36f5ad

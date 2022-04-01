@@ -1,10 +1,39 @@
-.example {
-  background-color: #ffaa33;
+#title-home {
+  font-size: 24px;
+  font-family: sans-serif;
 }
-.example p {
-  font-size: 20px;
-  padding: 35px 40px;
-  text-align: justify;
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  width: 95px;
+  margin-top: 5px;
+  padding: 10px 15px;
+  background-color: #ff3300;
+  color: white;
+  display: block;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #ff8084;
+  color: black;
+  transition: 500ms;
+}
+
+#cadastro-text {
+  color: #ff4042;
+  font-family: sans-serif;
+  font-size: 25px;
+}
+
+.container p {
+  color: #881021;
+  font-family: sans-serif;
+  font-size: 30px;
 }
 
 button {
