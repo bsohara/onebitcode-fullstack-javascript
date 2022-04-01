@@ -11,3 +11,15 @@ $font-color: #456777;
         text-align: justify;
     }
 }
+
+button {
+    background-color: $bgc-color;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+
+    &:hover {
+        background-color: #222222;
+        color: #aaa;
+    }
+}

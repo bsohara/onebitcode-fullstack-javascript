@@ -7,4 +7,15 @@
   text-align: justify;
 }
 
+button {
+  background-color: #ffaa33;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+button:hover {
+  background-color: #222222;
+  color: #aaa;
+}
+
 /*# sourceMappingURL=style.css.map */
