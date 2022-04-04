@@ -1,0 +1,30 @@
+/*#title {
+    color: mix(red, yellow, 40%);
+}*/
+
+$defaultFont: Arial, Helvetica, sans-serif;
+
+@function colorTitle($background-color){
+    @if(lightness($background-color) > 50){
+        @return black;
+    }
+    @else {
+        @return white;
+    }
+}
+
+@mixin textColorMix($color){
+    background-color: $color;
+    color: colorTitle($color);
+}
+
+* {
+    margin:0;
+    padding:0;
+    font-family: $defaultFont;
+}
+
+.title {
+    height: 100vh;
+    @include textColorMix(#daceff);
+}

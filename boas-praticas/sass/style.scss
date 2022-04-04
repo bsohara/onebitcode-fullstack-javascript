@@ -1,0 +1,14 @@
+//a. Imports - padrão
+//1. componentes de cores
+@import "./variables/colors/colors.scss";
+
+//2. componentes comuns
+@import "./variables/common/common.scss";
+
+
+//b. Imports elementos distintos
+//1. cadastro
+@import "./variables/pages/cadastro.scss";
+
+//2. login
+@import "./variables/pages/login.scss";
