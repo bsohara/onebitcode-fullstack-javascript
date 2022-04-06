@@ -1,20 +1,15 @@
-.navbar {
-  height: 85px;
+#navbarBasicExample{
+    height: 90px;
+}
+.navbar-item {
+    margin-left: 20px;
 }
 
-.item {
-  margin-left: 40px;
+.icons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
 }
-.item:hover {
-  transition: 500ms;
+.icon {
+    font-size: 20px;
 }
-
-.navbar {
-  margin-bottom: 20px;
-}
-
-.card {
-  margin-bottom: 20px;
-}
-
-/*# sourceMappingURL=style.css.map */
