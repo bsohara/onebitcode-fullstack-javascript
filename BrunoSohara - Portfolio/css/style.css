@@ -1,12 +1,11 @@
 .banner {
+  background-color: #101010;
   position: relative;
   min-height: 100vh;
-  background: url("../../img/ms3kKF.jpg");
-  background-size: cover;
-  background-position: center;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  color: #fbfbfb;
 }
 .banner h2 {
   font-size: 3em;
@@ -24,7 +23,7 @@
 }
 .banner .btn {
   position: relative;
-  background: #2196f3;
+  background: #567f45;
   display: inline-block;
   margin-top: 20px;
   padding: 10px 30px;
@@ -34,15 +33,36 @@
   font-weight: 500px;
   text-decoration: none;
   border-radius: 5px;
+  color: #000;
 }
 .banner .btn:hover {
-  color: #fff;
-  background: #4392f6;
+  color: #fbfbfb;
+  background: #9abf89;
   transition: 500ms;
 }
 
 .section {
   padding: 100px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 1140px;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 40px 100px;
+  z-index: 1000;
 }
 
 * {
