@@ -1,0 +1,47 @@
+.banner {
+    position: relative;
+    min-height: 100vh;
+    background: url("../../img/ms3kKF.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    h2 {
+        font-size: 3em;
+        font-weight: 500;
+        line-height: 1.5em;
+
+        span {
+            font-size: 1.5em;
+            font-weight: 700;
+        }
+    }
+
+    h3 {
+        font-size: 1.5em;
+        font-weight: 700;
+        line-height: 1.5em;
+    }
+
+    .btn {
+        position: relative;
+        background: #2196f3;
+        display: inline-block;
+        margin-top: 20px;
+        padding: 10px 30px;
+        font-size: 15px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-weight: 500px;
+        text-decoration: none;
+        border-radius: 5px;
+
+        &:hover {
+            color: #fff;
+            background: #4392f6;
+            transition: 500ms;
+        }
+    }
+}
