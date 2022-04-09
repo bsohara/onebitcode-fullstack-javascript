@@ -34,3 +34,34 @@ header {
         display: none;
     }
 }
+
+@media (max-width: 1140px){
+    header {
+        display: flex;
+        justify-content: space-between;
+
+        .logo {
+            font-size: 35px;
+            font-weight: 900;
+        }
+    
+
+        ul {
+            display: none;
+        }
+
+        .burger {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 35px;
+
+            .bars {
+                height: 6px;
+                width: 40px;
+                background-color: #fff;
+                border-radius: 20px;
+            }
+        }
+    }
+}
