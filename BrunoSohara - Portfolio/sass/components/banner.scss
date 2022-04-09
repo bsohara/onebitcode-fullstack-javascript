@@ -26,7 +26,7 @@
 
     .btn {
         position: relative;
-        background: #567f45;
+        background: $port-default-60;
         display: inline-block;
         margin-top: 20px;
         padding: 10px 30px;
@@ -40,7 +40,7 @@
 
         &:hover {
             color: $port-white;
-            background: #9abf89;
+            background: #ffeb77;;
             transition: 500ms;
         }
     }

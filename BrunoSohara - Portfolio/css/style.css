@@ -23,7 +23,7 @@
 }
 .banner .btn {
   position: relative;
-  background: #567f45;
+  background: #f3d213;
   display: inline-block;
   margin-top: 20px;
   padding: 10px 30px;
@@ -37,7 +37,7 @@
 }
 .banner .btn:hover {
   color: #fbfbfb;
-  background: #9abf89;
+  background: #ffeb77;
   transition: 500ms;
 }
 
@@ -52,10 +52,6 @@
   width: 1140px;
 }
 
-a {
-  text-decoration: none;
-}
-
 header {
   position: fixed;
   top: 0;
@@ -63,6 +59,25 @@ header {
   width: 100%;
   padding: 40px 100px;
   z-index: 1000;
+}
+header a {
+  text-decoration: none;
+  color: #eaeaea;
+}
+header a:hover {
+  color: #fbfbfb;
+}
+header .logo {
+  font-size: 25px;
+  font-weight: 900;
+}
+header ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+header ul li {
+  font-weight: 700;
 }
 
 * {
