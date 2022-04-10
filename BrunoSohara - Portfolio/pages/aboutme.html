@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
 <body>
@@ -35,19 +37,22 @@
 
     <section id="about-banner" class="banner">
         <div class="container">
-            <div class="about-photo">
+            <div class="about-photo" data-aos="fade-right" data-aos-duration="2000">
                 <img src="../img/profile.jpg" style="border-radius: 50%; width: 300px;">
             </div>
             <div class="about-sm">
-                <i class="fa-brands fa-linkedin-in"></i>
-                <i class="fa-brands fa-github"></i>
-                <i class="fa-brands fa-instagram"></i>
-                <i class="fa-brands fa-steam"></i>
-                <i class="fa-brands fa-codepen"></i>
+                <i data-aos="fade-left" data-aos-duration="2000" class="fa-brands fa-linkedin-in"></i>
+                <i data-aos="fade-left" data-aos-duration="2200" class="fa-brands fa-github"></i>
+                <i data-aos="fade-left" data-aos-duration="2400" class="fa-brands fa-instagram"></i>
+                <i data-aos="fade-left" data-aos-duration="2600" class="fa-brands fa-steam"></i>
+                <i data-aos="fade-left" data-aos-duration="2800" class="fa-brands fa-codepen"></i>
             </div>
         </div>
     </section>
 
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

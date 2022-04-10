@@ -118,6 +118,8 @@ header .burger {
   }
 }
 #about-banner {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 #about-banner .about-sm {
