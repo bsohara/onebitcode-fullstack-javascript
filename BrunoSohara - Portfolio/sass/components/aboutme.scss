@@ -1,0 +1,30 @@
+#about-banner {
+    justify-content: center;
+    
+
+    .about-sm {
+        display: flex;
+        justify-content: center;
+        color: $port-white;
+        gap: 40px; 
+
+        i {
+            font-size: 75px;
+
+            &:hover {
+                color: $port-default-60;
+                transition: 500ms;
+            }
+        }
+    }
+}
+
+#about-arrow {
+    background-color: $port-black;
+    color: $port-default-60;
+    height: 40px;
+
+    i {
+        font-size: 70px;
+    }
+}

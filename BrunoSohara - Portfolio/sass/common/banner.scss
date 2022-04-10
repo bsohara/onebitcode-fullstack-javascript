@@ -5,7 +5,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: $port-white;
+    color: $port-black;
+
+    h2, h3 {
+        mix-blend-mode: overlay;
+        &:hover {
+            mix-blend-mode: hard-light;
+        }
+    }
 
     h2 {
         font-size: 3em;

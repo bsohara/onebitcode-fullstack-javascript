@@ -1,10 +1,13 @@
 header {
     a {
         text-decoration: none;
-        color: #eaeaea;
+        color: $port-white;
+        padding: 10px;
+        border-radius: 10px;
 
         &:hover {
-            color: $port-white;
+            color: $port-default-60;
+            transition: 800ms;
         }
     }
 
@@ -59,9 +62,11 @@ header {
             .bars {
                 height: 6px;
                 width: 40px;
-                background-color: #fff;
+                background-color: $port-white;
                 border-radius: 20px;
             }
+
+
         }
     }
 }
