@@ -12,6 +12,7 @@
 }
 .banner h2:hover, .banner h3:hover {
   mix-blend-mode: hard-light;
+  transition: 500ms;
 }
 .banner h2 {
   font-size: 3em;
@@ -162,7 +163,7 @@ header .burger {
 }
 #about-arrow i {
   font-size: 70px;
-  animation: jump 1s linear infinite;
+  animation: jump 1s alternate infinite;
 }
 
 #about-description {
@@ -189,7 +190,7 @@ header .burger {
     transform: translateY(20px);
   }
   50% {
-    transform: translateY(-20px);
+    transform: translateY(-10px);
   }
   100% {
     transform: translateY(20px);
@@ -201,6 +202,28 @@ header .burger {
   }
   #about-banner .about-sm i {
     font-size: 50px;
+  }
+}
+.project-banner h2 {
+  animation: blinking 1s alternate infinite;
+}
+
+#projects {
+  min-height: 100vh;
+}
+
+@keyframes blinking {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.25;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 2;
   }
 }
 * {

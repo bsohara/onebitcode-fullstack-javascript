@@ -32,7 +32,7 @@
 
     i {
         font-size: 70px;
-        animation: jump 1s linear infinite;
+        animation: jump 1s alternate infinite;
     }
 }
 
@@ -63,7 +63,7 @@
     }
 
     50% {
-        transform: translateY(-20px); 
+        transform: translateY(-10px); 
     }
 
     100% {
