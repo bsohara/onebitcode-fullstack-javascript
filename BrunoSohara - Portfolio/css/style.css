@@ -47,6 +47,12 @@
   transition: 500ms;
 }
 
+@media (max-width: 1000px) {
+  .banner {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .section {
   padding: 100px;
 }
@@ -56,6 +62,14 @@
   justify-content: space-around;
   align-items: center;
   width: 1140px;
+}
+
+.container-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
 }
 
 header {
@@ -68,7 +82,7 @@ header {
 }
 header a {
   text-decoration: none;
-  color: #fbfbfb;
+  color: #454545;
   padding: 10px;
   border-radius: 10px;
 }
@@ -113,7 +127,7 @@ header .burger {
   header .burger .bars {
     height: 6px;
     width: 40px;
-    background-color: #fbfbfb;
+    background-color: #454545;
     border-radius: 20px;
   }
 }
@@ -123,13 +137,15 @@ header .burger {
   justify-content: center;
 }
 #about-banner .about-sm {
+  margin-top: 20px;
   display: flex;
   justify-content: center;
-  color: #fbfbfb;
+  mix-blend-mode: overlay;
   gap: 40px;
 }
 #about-banner .about-sm i {
-  font-size: 75px;
+  font-size: 60px;
+  padding-top: 20px;
 }
 #about-banner .about-sm i:hover {
   color: #f3d213;
@@ -137,14 +153,56 @@ header .burger {
 }
 
 #about-arrow {
-  background-color: #101010;
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+  background: #101010;
   color: #f3d213;
   height: 40px;
 }
 #about-arrow i {
   font-size: 70px;
+  animation: jump 1s linear infinite;
 }
 
+#about-description {
+  padding: 100px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 100px;
+}
+#about-description h1 {
+  font-size: 75px;
+  font-weight: 300;
+  margin-bottom: 50px;
+}
+#about-description p {
+  font-size: 20px;
+  font-weight: 100;
+  margin-bottom: 15px;
+}
+
+@keyframes jump {
+  0% {
+    transform: translateY(20px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(20px);
+  }
+}
+@media (max-width: 1000px) {
+  #about-banner .about-sm {
+    margin-top: 20px;
+  }
+  #about-banner .about-sm i {
+    font-size: 50px;
+  }
+}
 * {
   margin: 0;
   padding: 0;

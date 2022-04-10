@@ -4,13 +4,15 @@
     justify-content: center;
     
     .about-sm {
+        margin-top: 20px;
         display: flex;
         justify-content: center;
-        color: $port-white;
+        mix-blend-mode: overlay;
         gap: 40px; 
 
         i {
-            font-size: 75px;
+            font-size: 60px;
+            padding-top: 20px;
 
             &:hover {
                 color: $port-default-60;
@@ -20,13 +22,64 @@
     }
 }
 
-
 #about-arrow {
-    background-color: $port-black;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    background: $port-black;
     color: $port-default-60;
     height: 40px;
 
     i {
         font-size: 70px;
+        animation: jump 1s linear infinite;
+    }
+}
+
+#about-description {
+    padding: 100px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 100px;
+
+    h1 {
+        font-size: 75px;
+        font-weight: 300;
+        margin-bottom: 50px;
+    }
+
+    p {
+        font-size: 20px;
+        font-weight: 100;
+        margin-bottom: 15px;
+    }
+}
+
+@keyframes jump{
+    0% {
+        transform: translateY(20px); 
+    }
+
+    50% {
+        transform: translateY(-20px); 
+    }
+
+    100% {
+        transform: translateY(20px);
+    }
+}
+
+@media (max-width: 1000px){
+    #about-banner {
+        
+        .about-sm {
+            margin-top: 20px;
+
+            i {
+                font-size: 50px;
+            }
+        }
     }
 }

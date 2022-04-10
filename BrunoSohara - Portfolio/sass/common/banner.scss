@@ -52,3 +52,10 @@
         }
     }
 }
+
+@media (max-width: 1000px){
+    .banner {
+        display: flex;
+        flex-direction: column;
+    }
+}
