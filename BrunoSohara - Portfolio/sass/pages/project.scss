@@ -1,27 +1,7 @@
 .project-banner {
-    h2 {
-        animation: blinking 1s alternate infinite;
-    }
+    
 }
 
 #projects {
     min-height: 100vh;
-}
-
-@keyframes blinking {
-    0% {
-        opacity: 0;
-    }
-
-    25% {
-        opacity: 0.25;
-    }
-
-    50% {
-        opacity: 0.5;
-    }
-
-    100% {
-        opacity: 2;
-    }
 }
