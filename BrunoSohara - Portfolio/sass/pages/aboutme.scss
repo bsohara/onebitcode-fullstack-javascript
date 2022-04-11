@@ -7,12 +7,13 @@
         margin-top: 20px;
         display: flex;
         justify-content: center;
-        mix-blend-mode: overlay;
+        color: #fff;
         gap: 40px; 
 
         i {
             font-size: 60px;
             padding-top: 20px;
+            color: #fff;
 
             &:hover {
                 color: $port-default-60;

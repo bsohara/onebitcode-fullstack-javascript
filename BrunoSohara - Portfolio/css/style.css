@@ -73,6 +73,15 @@
   width: 100%;
 }
 
+.container-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 10% auto;
+  padding: 30px;
+}
+
 header {
   position: fixed;
   top: 0;
@@ -141,12 +150,13 @@ header .burger {
   margin-top: 20px;
   display: flex;
   justify-content: center;
-  mix-blend-mode: overlay;
+  color: #fff;
   gap: 40px;
 }
 #about-banner .about-sm i {
   font-size: 60px;
   padding-top: 20px;
+  color: #fff;
 }
 #about-banner .about-sm i:hover {
   color: #f3d213;
@@ -207,6 +217,10 @@ header .burger {
 }
 #projects {
   min-height: 100vh;
+}
+
+.content {
+  padding: 20px;
 }
 
 * {
