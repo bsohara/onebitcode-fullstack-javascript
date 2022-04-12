@@ -1,4 +1,15 @@
 header {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.45);
+
     a {
         text-decoration: none;
         color: #454545;
@@ -10,16 +21,6 @@ header {
             transition: 800ms;
         }
     }
-
-    position: fixed;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 40px 100px;
-    z-index: 1000;
 
     .logo {
         font-size: 25px;
