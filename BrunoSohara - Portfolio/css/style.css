@@ -80,6 +80,7 @@
   width: 100%;
   margin: 10% auto;
   padding: 30px;
+  margin-top: 200px;
 }
 
 .container-4 {
@@ -254,20 +255,22 @@ header .burger {
   min-height: 100vh;
 }
 
-.hard-skills, .languages {
+.hard-skills {
   width: 100%;
-  padding-top: 30px;
-  margin-bottom: 80px;
+  margin-top: 300px;
 }
-.hard-skills h2, .languages h2 {
+.hard-skills h2 {
   font-size: 60px;
   font-weight: 300;
   margin-bottom: 15px;
 }
-.hard-skills .cards, .languages .cards {
+.hard-skills .cards {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   gap: 50px;
+  width: 100%;
 }
 
 @media (max-width: 1140px) {

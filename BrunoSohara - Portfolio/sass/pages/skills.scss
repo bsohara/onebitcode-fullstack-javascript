@@ -24,10 +24,9 @@
     min-height: 100vh;
 }
 
-.hard-skills, .languages {
+.hard-skills {
     width: 100%;
-    padding-top: 30px;
-    margin-bottom: 80px;
+    margin-top: 300px;
 
     h2 {
         font-size: 60px;
@@ -38,7 +37,10 @@
     .cards {
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
         gap: 50px;
+        width: 100%;
     }
 }
 
