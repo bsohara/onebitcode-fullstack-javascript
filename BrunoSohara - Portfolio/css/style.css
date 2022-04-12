@@ -241,7 +241,7 @@ header .burger {
   color: #fbfbfb;
 }
 .skill-banner .texts h2 {
-  font-size: 80px;
+  font-size: 100px;
   margin-bottom: 30px;
   font-weight: 100;
 }
@@ -250,12 +250,24 @@ header .burger {
   font-weight: 100;
 }
 
-.hard-skills {
-  margin-bottom: 40px;
-}
-
 .skills {
   min-height: 100vh;
+}
+
+.hard-skills, .languages {
+  width: 100%;
+  padding-top: 30px;
+  margin-bottom: 80px;
+}
+.hard-skills h2, .languages h2 {
+  font-size: 60px;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+.hard-skills .cards, .languages .cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
 }
 
 @media (max-width: 1140px) {
