@@ -1,0 +1,40 @@
+.skill-banner {
+    
+
+    .textBox {
+        padding-top: 100px;
+        padding-right: 405px;
+
+        h2 {
+            font-size: 75px;
+            font-weight: 300;
+        }
+
+        h3 {
+            margin-top: 10px;
+            font-size: 30px;
+            font-weight: 300;
+        }
+    }
+}
+
+.skills {
+    min-height: 100vh;
+}
+
+
+@media (max-width: 950px) {
+    .skill-banner {
+        .textBox {
+            padding-left: 100px;
+        }
+    }
+}
+
+@media (max-width: 900px) {
+    .skill-banner {
+        .textBox {
+            padding-left: 100px;
+        }
+    }
+}
