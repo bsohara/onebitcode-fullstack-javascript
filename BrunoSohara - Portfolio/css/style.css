@@ -285,6 +285,28 @@ header .burger {
     margin-left: 50px;
   }
 }
+.xp-banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.xp-banner h2, .xp-banner h3 {
+  color: #fff;
+}
+.xp-banner h2 {
+  font-weight: 100;
+  font-size: 100px;
+}
+.xp-banner h3 {
+  font-weight: 100;
+  font-size: 35px;
+}
+
+#xp-timeline {
+  min-height: 100vh;
+}
+
 * {
   margin: 0;
   padding: 0;
