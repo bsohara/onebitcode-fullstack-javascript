@@ -1,0 +1,60 @@
+body {
+    overflow-x: hidden;
+  }
+
+  span {
+    color: #fff;
+    animation: blinking 0.8s alternate infinite;
+  }
+
+  @keyframes blinking {
+    0% {
+      opacity: 0.3;
+      color: #f3d213;
+    }
+
+    5% {
+      opacity: 0.15;
+      color: #f3d213;
+    }
+
+    25% {
+      opacity: 0.25;
+      color: #f3d213;
+    }
+
+    30% {
+      opacity: 1;
+      color: #f3d213;
+    }
+
+    35% {
+      opacity: 0.8;
+      color: #f3d213;
+    }
+
+    50% {
+      opacity: 0.55;
+      color: #f3d213;
+    }
+
+    55% {
+      opacity: 0.55;
+      color: #f3d213;
+    }
+
+    75% {
+      opacity: 0.2;
+      color: #f3d213;
+    }
+
+    80% {
+      opacity: 0.75;
+      color: #f3d213;
+    }
+
+    100% {
+      opacity: 0.65;
+      color: #f3d213;
+    }
+  }

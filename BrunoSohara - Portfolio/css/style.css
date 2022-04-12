@@ -99,7 +99,6 @@ header {
   width: 100%;
   padding: 40px 100px;
   z-index: 1000;
-  background-color: rgba(0, 0, 0, 0.45);
 }
 header a {
   text-decoration: none;
@@ -203,7 +202,7 @@ header .burger {
 #about-description p {
   font-size: 20px;
   font-weight: 100;
-  margin-bottom: 5px;
+  margin-bottom: 20px;
   text-align: justify;
 }
 
@@ -265,6 +264,7 @@ header .burger {
   font-size: 60px;
   font-weight: 300;
   margin-bottom: 15px;
+  color: #212121;
 }
 .hard-skills .cards {
   display: flex;
