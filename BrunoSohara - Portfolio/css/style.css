@@ -99,7 +99,7 @@ header {
   width: 100%;
   padding: 40px 100px;
   z-index: 1000;
-  background-color: rgba(1, 1, 1, 0.9);
+  background-color: rgba(100, 100, 100, 0.25);
 }
 header a {
   text-decoration: none;
@@ -162,7 +162,7 @@ header .burger {
   display: flex;
   justify-content: center;
   color: #fff;
-  gap: 40px;
+  gap: 50px;
 }
 #about-banner .about-sm i {
   font-size: 60px;
@@ -203,7 +203,7 @@ header .burger {
 #about-description p {
   font-size: 20px;
   font-weight: 100;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   text-align: justify;
 }
 
@@ -311,6 +311,25 @@ header .burger {
 }
 #xp-timeline .columns {
   margin-top: 100px;
+}
+
+.contact-section {
+  padding: 200px;
+  gap: 20px;
+}
+
+.icons-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.content {
+  padding-left: 100px;
+}
+
+.media-content .subtitle, .media-content .title {
+  margin-top: 20px;
 }
 
 * {

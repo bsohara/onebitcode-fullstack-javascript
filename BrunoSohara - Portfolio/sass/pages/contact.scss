@@ -1,0 +1,20 @@
+.contact-section {
+    padding: 200px;
+    gap: 20px;
+}
+
+.icons-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.content {
+    padding-left: 100px;
+}
+
+.media-content {
+    .subtitle, .title {
+        margin-top: 20px;
+    }
+}
