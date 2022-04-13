@@ -99,6 +99,7 @@ header {
   width: 100%;
   padding: 40px 100px;
   z-index: 1000;
+  background-color: rgba(1, 1, 1, 0.9);
 }
 header a {
   text-decoration: none;
@@ -290,6 +291,7 @@ header .burger {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  padding-top: 200px;
 }
 .xp-banner h2, .xp-banner h3 {
   color: #fff;
@@ -305,6 +307,10 @@ header .burger {
 
 #xp-timeline {
   min-height: 100vh;
+  padding: 130px;
+}
+#xp-timeline .columns {
+  margin-top: 100px;
 }
 
 * {

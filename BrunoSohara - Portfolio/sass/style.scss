@@ -1,8 +1,15 @@
+//Import colors
 @import './colors/colors.scss';
+
+//IMport commons
 @import './common/banner.scss';
 @import './common/section.scss';
 @import './common/container.scss';
+
+//Import components
 @import './components/header.scss';
+
+//Import pages
 @import './pages/aboutme.scss';
 @import './pages/project.scss';
 @import './pages/skills.scss';

@@ -3,6 +3,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    padding-top: 200px;
 
     h2, h3 {
         color: #fff;
@@ -19,4 +20,9 @@
 
 #xp-timeline {
     min-height: 100vh;
+    padding: 130px;
+
+    .columns {
+        margin-top: 100px;
+    }
 }
