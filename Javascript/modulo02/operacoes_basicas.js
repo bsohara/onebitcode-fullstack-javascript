@@ -22,6 +22,7 @@ console.log(palavra1[0]);
 console.log(palavra1.length + palavra2.length); 
 
 //Quiz 1
+console.log("======= Quiz 1 =======");
 console.log("Javascript".length + 2 * 8); //resposta: 26
 console.log(("Javascript".length + 2) * 8); //resposta: 96
 console.log((((5 + 1 * 4) - "JS".length) * 2) - 10); //resposta: 4
