@@ -1,7 +1,21 @@
+/*
+#77B0C7
+
+#2664B1
+
+#C4D1E0
+
+*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
 }
 
 body {
@@ -14,22 +28,46 @@ header {
   justify-content: space-around;
   align-items: center;
   height: 120px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9;
+}
+header .logo h1 {
+  font-size: 50px;
+  color: #385f92;
+  font-weight: 100;
 }
 header ul {
   display: flex;
-  gap: 50px;
+  gap: 100px;
   list-style: none;
 }
 header ul li > a {
   text-decoration: none;
   padding: 10px;
+  color: #385f92;
+  font-size: 20px;
+  font-weight: 100;
 }
 header ul li > a:hover {
-  background-color: #444;
+  background-color: #385f92;
   transition: 400ms;
+  border-radius: 5px;
+  color: #fafafa;
+  opacity: 0.5;
 }
 header .burger {
   display: none;
+}
+
+main {
+  background-image: url("../images/Free_Credit_Card_Mockup_1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
 }
 
 @media (max-width: 1140px) {
@@ -39,14 +77,14 @@ header .burger {
   header .burger {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    height: 25px;
+    justify-content: space-around;
+    height: 40px;
     cursor: pointer;
   }
   header .burger .bar {
-    height: 5px;
-    width: 30px;
-    background-color: #131313;
+    height: 6px;
+    width: 40px;
+    background-color: #385f92;
     border-radius: 5px;
   }
 }
