@@ -1,2 +1,0 @@
--- representa um dado bruto
--- capaz de construir estruturas mais comnplexas no javascript
