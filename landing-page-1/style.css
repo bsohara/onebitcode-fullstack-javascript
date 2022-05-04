@@ -41,12 +41,12 @@ header .logo h1 {
 }
 header ul {
   display: flex;
-  gap: 100px;
+  gap: 45px;
   list-style: none;
 }
 header ul li > a {
   text-decoration: none;
-  padding: 10px;
+  padding: 5px;
   color: #385f92;
   font-size: 20px;
   font-weight: 100;
@@ -67,7 +67,27 @@ main {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 100vh;
+}
+main .texts {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: auto 14%;
+}
+main .texts .title > h1 {
+  font-size: 75px;
+  font-weight: 200;
+}
+main .texts .subtitle > h2 {
+  font-size: 50px;
+  font-weight: 200;
+}
+main .texts .title, main .texts .subtitle {
+  color: #C4D1E0;
+  text-shadow: 4px 4px 4px #121212;
 }
 
 @media (max-width: 1140px) {
@@ -86,6 +106,13 @@ main {
     width: 40px;
     background-color: #385f92;
     border-radius: 5px;
+  }
+
+  main .texts .title > h1 {
+    font-size: 60px;
+  }
+  main .texts .subtitle > h2 {
+    font-size: 30px;
   }
 }
 

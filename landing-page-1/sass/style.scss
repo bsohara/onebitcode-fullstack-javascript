@@ -40,12 +40,12 @@ header {
 
     ul{
         display: flex;
-        gap: 100px;
+        gap: 45px;
         list-style: none;
 
         li > a{
             text-decoration: none;
-            padding: 10px;
+            padding: 5px;
             color: $def-30;
             font-size: 20px;
             font-weight: 100;
@@ -70,7 +70,29 @@ main {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 100vh;
+
+    .texts {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        margin: auto 14%;
+
+        .title > h1{
+            font-size: 75px;
+            font-weight: 200;
+        }
+        .subtitle > h2{
+            font-size: 50px;
+            font-weight: 200;
+        }
+        .title, .subtitle {
+            color: $def-10;
+            text-shadow: 4px 4px 4px #121212;
+        }
+    }
 }
 
 @media (max-width: 1140px) {
@@ -91,6 +113,17 @@ main {
                 width: 40px;
                 background-color: $def-30;
                 border-radius: 5px;
+            }
+        }
+    }
+
+    main {
+        .texts {
+            .title > h1 {
+                font-size: 60px;
+            }
+            .subtitle > h2{
+                font-size: 30px;
             }
         }
     }
