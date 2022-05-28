@@ -22,3 +22,11 @@ console.log(sums(12, 12));
 const pow = (a, b) => { return Math.pow(a, b)}
 
 console.log(pow(12, 2));
+
+const verifyAge = (age) => {
+    return age >= 18 && age != null;
+}
+
+console.log(verifyAge(19));
+console.log(verifyAge(17));
+console.log(verifyAge(0));
