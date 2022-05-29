@@ -24,8 +24,12 @@ function tables(number){
 console.log(printMulTables(number));*/
 
 //exercise 03
-const kilometer = 1.61;
+/*const kilometer = 1.61;
 var miles = parseInt(prompt('Digite o número em milhas: '));
 
 const kmForMi = (miles) => { return miles > 0 ? miles * kilometer : 0 };
-console.log(`Valor (em km): ${kmForMi(miles)} km.\nValor (em milhas): ${miles} milhas.`);
+console.log(`Valor (em km): ${kmForMi(miles)} km.\nValor (em milhas): ${miles} milhas.`);*/
+
+
+
+
