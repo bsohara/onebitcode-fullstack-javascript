@@ -1,13 +1,13 @@
 /** ==> mensagem para os divisores
  *  
- * - fazer a iteração,.de 1 a 100, realizando seguintes mensagens
+ * - fazer a iteração, de 1 a 100, realizando seguintes mensagens
  * a. "Fizz": quando aparece os números em que são divisíveis por 3
  * b. "Buzz": quando aparecem números divisíveis por 5
  * c. "Fizz Buzz": quando aparecem números que são divisíveis por 15
  */
 
 
-/*const fizz = 3;
+const fizz = 3;
 const buzz = 5;
 const fizzbuzz = 15;
 
@@ -21,7 +21,7 @@ const module = (iterator, number) => {
 
 for(let i=0; i<100; i++){
     module(i, fizz) ? msg('Fizz') : module(i, buzz) ? msg('Buzz') : module(i, fizzbuzz) ? msg('Fizz Buzz') : msg(i);
-}*/
+}
 
 var fibonacci_series = (n) => {
   if (n === 1) {
@@ -36,3 +36,4 @@ var fibonacci_series = (n) => {
 console.log(fibonacci_series(13));
 
 // 0, 1, 1, 2, 3, 5, 8, 13... ==> Fibonacci
+// 0, 1, 1, 2, 3, 5, 8, 13, 21, 34...
