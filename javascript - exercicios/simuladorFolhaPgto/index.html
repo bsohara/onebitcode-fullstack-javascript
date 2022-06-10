@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Folha de Pagamento</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <div class="main">
+        <h1>Cálculo de Holerite</h1>
+        <form>
+            <label for="salary">Salário</label>
+            <br>
+            <input type="text" name="salary" placeholder="">
+            <br>
+            <br>
+            <label for="type">Informação Fiscal</label>
+            <br>
+            <select name="type" id="type">
+                <option value="fgts">FGTS</option>
+                <option value="inss">INSS</option>
+                <option value="addHours">Horas Adicionais</option>
+                <option value="vacations">Férias</option>
+                <option value="absence">Ausência</option>
+            </select>
+            <br>
+            <br>
+            <input type="button" id="calculate" value="calcular">
+        </form>
+    </div>
+    
+</body>
+</html>
