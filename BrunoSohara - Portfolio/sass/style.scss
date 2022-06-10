@@ -1,0 +1,114 @@
+/*#region IMPORTS*/
+@import './colors.scss';
+/*#endregion*/
+
+/*#region DEFAULT*/
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+.container {
+    width: 1140px;
+    display: flex;
+    justify-content: space-around;
+}
+/*#endregion*/
+
+/*#region HEADER*/
+header {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    background: $dark-color;
+    
+    .logo {
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        a {
+            color: $def-color;
+            text-decoration: none;
+        }
+
+        h1:hover {
+            color: $def-white;
+            transition: 800ms;
+        }
+    }
+    .menu {
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        ul {
+            display: flex;
+            list-style: none;
+
+            li {
+                height: 100px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 30px;
+
+                &:hover {
+                    height: 100px;
+                    background: $light-color;
+                    color: $def-white;
+                    transition: 800ms;
+                }
+            }
+
+            li > a {
+                text-decoration: none;
+                color: $def-color;
+            }
+        }
+    }
+    .burger {
+        display: none;
+    }
+}
+/*#endregion*/
+
+/*#region MEDIA*/
+@media (max-width: 768px){
+    header {
+        padding-left: 5px;
+        padding-right: 5px;
+        
+
+        .menu {
+            display: none;
+        }
+
+        .burger {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100px;
+            
+
+            .bars {
+                border-radius: 5px;
+                margin: 5px 0;
+                height: 5px;
+                width: 39px;
+                background: $def-color;
+            }
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+}
+/*#endregion*/
