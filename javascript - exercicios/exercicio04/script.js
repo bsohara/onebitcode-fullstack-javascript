@@ -1,23 +1,40 @@
 let ly = prompt("Digite a velocidade em anos-luz: ");
-
+let chosenUnit;
 const pc = 0.306601;
 const au = 63241.1;
 const km = 9.5 * Math.pow(10, 12);
 
-let chosenOption = parseInt(prompt("Digite a unidade que gostaria de converter:\n1-Parsec (ps)\n2-Unidade astronômica (AU)\n3-Quilômetros(km)"));
+let chosenOption = parseInt(prompt("Digite a opção para escolher:\n1-Parsec (PC)\n2-Unidade astronômica (AU)\n3-Quilômetros (KM)"));
 
+const calctoPC = (ly) => {
+    var result = ly * pc;
+    return result;
+}
+
+const calctoAU = (ly) => {
+    var result = ly * au;
+    return result;
+}
+
+const calctoKM = (ly) => {
+    var result = ly * km;
+    return result;
+}
 
 switch(chosenOption){
     case 1:
-        alert(`Velocidade em anos-luz: ${ly} anos-luz.\nConversão em Parsec: ${ly * pc} pc.`);
+        chosenUnit = "Parsec";
+        alert(`Velocidade em anos-luz: ${ly} anos-luz.\nConversão em ${chosenUnit}: ${calctoPC(ly)} pc.`);
         break;
     
     case 2:
-        alert(`Velocidade em anos-luz: ${ly} anos-luz.\nConversão em Unidade Astronômica: ${ly * au} au.`);
+        chosenUnit = "Unidade Astronômica";
+        alert(`Velocidade em anos-luz: ${ly} anos-luz.\nConversão em ${chosenUnit}: ${calctoAU(ly)} au.`);
         break;
 
     case 3:
-        alert(`Velocidade em anos-luz: ${ly} anos-luz.\nConversão em quilômetros: ${ly * km} km.`);
+        chosenUnit = "Quilômetros";
+        alert(`Velocidade em anos-luz: ${ly} anos-luz.\nConversão em ${chosenUnit}: ${calctoKM(ly)} km.`);
         break;
     
     default:
