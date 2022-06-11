@@ -5,7 +5,7 @@ let dobras = 0;
 const fazerDobras = (resposta) => {
     while(resposta == "1"){
         dobras++;
-        console.log(dobras);
+        console.log(`Dobra nº: ${dobras}`);
         resposta = prompt("Gostaria de fazer mais uma dobra?\n1-sim\n2-não");
     }
     
