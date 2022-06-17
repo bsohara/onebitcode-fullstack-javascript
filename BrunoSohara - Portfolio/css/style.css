@@ -59,13 +59,15 @@ header .menu ul li {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 30px;
+  padding: 20px;
+  border-bottom: 5px solid transparent;
 }
 header .menu ul li:hover {
   height: 100px;
   background: #919191;
   color: #fefefe;
   transition: 800ms;
+  border-bottom: 5px solid #172247;
 }
 header .menu ul li > a {
   text-decoration: none;
@@ -79,25 +81,24 @@ header .burger {
 /*#region BANNER*/
 .banner {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   height: 100vh;
   background-image: url("../img/garrett-parker-DlkF4-dbCOU-unsplash.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 10px;
 }
 .banner .texts {
   color: #29314b;
 }
 .banner .texts > .name > h1 {
   font-size: 100px;
-  font-weight: bolder;
+  font-weight: 600;
   mix-blend-mode: overlay;
 }
 .banner .texts > .title > h2 {
-  font-size: 30px;
-  font-weight: 600;
+  font-size: 35px;
+  font-weight: 400;
   mix-blend-mode: overlay;
 }
 
@@ -105,6 +106,34 @@ header .burger {
 /*#region ABOUT*/
 #about {
   height: 100vh;
+  display: flex;
+}
+#about .texts {
+  margin-top: 50px;
+  padding: 25px;
+}
+#about .texts .photo {
+  text-align: center;
+}
+#about .texts .photo .social > a {
+  color: #29314b;
+  text-decoration: none;
+}
+#about .texts .photo .social > a i {
+  font-size: 35px;
+  padding: 10px;
+}
+#about .texts .photo img {
+  height: 150px;
+  border-radius: 50%;
+}
+#about .texts .title {
+  font-size: 25px;
+}
+#about .texts .descr {
+  padding: 10px;
+  text-align: justify;
+  font-size: 15px;
 }
 
 /*#endregion*/
@@ -141,6 +170,9 @@ header .burger {
   }
   .banner .texts > .name > h1 {
     font-size: 75px;
+  }
+  #about {
+    display: block;
   }
 }
 /*#endregion*/
