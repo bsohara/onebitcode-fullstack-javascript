@@ -1,5 +1,4 @@
-/*#region IMPORTS*/
-/*#region COLOR DEFAULT*/
+/*#region IMPORTS*/ /*#region COLOR DEFAULT*/
 /*#endregion*/
 /*#endregion*/
 /*#region DEFAULT*/
@@ -24,7 +23,12 @@ header {
   height: 100px;
   justify-content: center;
   align-items: center;
-  background: #1f1f1f;
+  background: #0e0e0e;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  opacity: 0.95;
 }
 header .logo {
   height: 100px;
@@ -33,7 +37,7 @@ header .logo {
   align-items: center;
 }
 header .logo a {
-  color: #4a557e;
+  color: #4a557a;
   text-decoration: none;
 }
 header .logo h1:hover {
@@ -65,15 +69,47 @@ header .menu ul li:hover {
 }
 header .menu ul li > a {
   text-decoration: none;
-  color: #4a557e;
+  color: #4a557a;
 }
 header .burger {
   display: none;
 }
 
 /*#endregion*/
+/*#region BANNER*/
+.banner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  background-image: url("../img/garrett-parker-DlkF4-dbCOU-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px;
+}
+.banner .texts {
+  color: #29314b;
+}
+.banner .texts > .name > h1 {
+  font-size: 100px;
+  font-weight: bolder;
+  mix-blend-mode: overlay;
+}
+.banner .texts > .title > h2 {
+  font-size: 30px;
+  font-weight: 600;
+  mix-blend-mode: overlay;
+}
+
+/*#endregion*/
+/*#region ABOUT*/
+#about {
+  height: 100vh;
+}
+
+/*#endregion*/
 /*#region MEDIA*/
-@media (max-width: 768px) {
+@media (max-width: 780px) {
   header {
     padding-left: 5px;
     padding-right: 5px;
@@ -93,10 +129,18 @@ header .burger {
     margin: 5px 0;
     height: 5px;
     width: 39px;
-    background: #4a557e;
+    background: #4a557a;
   }
   header .burger:hover {
     cursor: pointer;
+  }
+  .banner {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+  }
+  .banner .texts > .name > h1 {
+    font-size: 75px;
   }
 }
 /*#endregion*/
