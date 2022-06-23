@@ -107,10 +107,11 @@ header .burger {
 #about {
   height: 100vh;
   display: flex;
+  justify-content: center;
 }
 #about .texts {
   margin-top: 50px;
-  padding: 25px;
+  padding: 45px;
 }
 #about .texts .photo {
   text-align: center;
@@ -118,10 +119,15 @@ header .burger {
 #about .texts .photo .social > a {
   color: #29314b;
   text-decoration: none;
+  cursor: pointer;
 }
 #about .texts .photo .social > a i {
   font-size: 35px;
   padding: 10px;
+}
+#about .texts .photo .social > a i:hover {
+  color: #acacac;
+  transition: 400ms;
 }
 #about .texts .photo img {
   height: 150px;
@@ -131,9 +137,25 @@ header .burger {
   font-size: 25px;
 }
 #about .texts .descr {
+  width: auto;
   padding: 10px;
   text-align: justify;
-  font-size: 15px;
+  font-size: 12px;
+}
+
+/*#endregion*/
+/*#region SKILLS*/
+#skills {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  background: #18203a;
+}
+#skills .title {
+  margin-top: 125px;
+  text-align: center;
+  color: #fafafa;
 }
 
 /*#endregion*/

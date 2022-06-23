@@ -118,21 +118,28 @@ header {
 #about {
     height: 100vh;
     display: flex;
+    justify-content: center;
 
     .texts {
         margin-top: 50px;
-        padding: 25px;
+        padding: 45px;
 
         .photo {
             text-align: center;
 
             .social > a{
                 color: $ban-def-color;
-                text-decoration: none;                
+                text-decoration: none;    
+                cursor: pointer;           
 
                 i {
                     font-size: 35px;
                     padding: 10px;
+
+                    &:hover {
+                        color: $ban-light;
+                        transition: 400ms;
+                    }
                 }
             }
 
@@ -147,10 +154,27 @@ header {
         }
 
         .descr {
+            width: auto;
             padding: 10px;
             text-align: justify;
-            font-size: 15px;
+            font-size: 12px;
         }
+    }
+}
+/*#endregion*/
+
+/*#region SKILLS*/
+#skills {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    background: $skill-def-color;
+
+    .title {
+        margin-top: 125px;
+        text-align: center;
+        color: $skill-light;
     }
 }
 /*#endregion*/
