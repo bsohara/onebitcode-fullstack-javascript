@@ -20,4 +20,4 @@ console.log(spaceship == 'Nexus Mortis');
 console.log(spaceship > 'Ueda');
 console.log(spaceship < 'Dena');
 console.log(spaceship >= 'Keylog');
-console.log(spaceship <= 'Noctis')
+console.log(spaceship <= 'Noctis');
