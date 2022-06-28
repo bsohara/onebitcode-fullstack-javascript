@@ -45,5 +45,7 @@ do {
     case "3":
       mostraDados(espaconave, velEspaconave);
       break;
+      default:
+        alert("encerrando programa. . .");
   }
 } while (opcaoEscolhida != "4");
