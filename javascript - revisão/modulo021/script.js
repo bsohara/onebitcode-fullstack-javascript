@@ -9,9 +9,9 @@ console.log(spaceship);
 */
 
 let players = [
-    {name: "Yotyan", totalLvl: 2857},
-    {name: "Omid", totalLvl: 2898},
-    {name: "L33", totalLvl: 2898},
+    {name: "Yotyan", totalLvl: 2857, worldRanking: 63889},
+    {name: "Omid", totalLvl: 2898, worldRanking: 3},
+    {name: "L33", totalLvl: 2898, worldRanking: 2}
 ]
 
 console.log(players[1].name);
