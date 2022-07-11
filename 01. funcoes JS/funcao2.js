@@ -6,7 +6,7 @@ let esteira = {
 }
 let opcaoEscolhida;
 
-esteira.aceleracao = parseInt(prompt("Qual será a aceleração da esteira?"));
+esteira.aceleracao = 5;
 
 let aumentarVelocidade = (aceleracao) => {
     esteira.aumentar(aceleracao);
