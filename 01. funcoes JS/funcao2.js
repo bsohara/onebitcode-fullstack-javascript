@@ -12,14 +12,13 @@ let aumentarVelocidade = (aceleracao) => {
 }   
 
 let diminuirVelocidade = (aceleracao) => {
-    esteira.velocidade > 0 ? esteira.diminuir(aceleracao) : alert("A esteira está parada. Considere aumentar gradativamente a velocidade da esteira.")
+    esteira.velocidade > 0 ? esteira.diminuir(aceleracao) : alert("A esteira está parada. Considere aumentar gradativamente a velocidade da esteira.");
     console.log(`Diminuindo a velocidade.`);
     
 }   
 
-let mostrarVelocAtual = (medida="km/s.") => {
-    alert(`Velocidade atual: ${esteira.velocidade} ${medida}`);
-}
+let mostrarVelocAtual = (medida="km/s.") => alert(`Velocidade atual: ${esteira.velocidade} ${medida}`);
+
 
 let pararEsteira = () => {
     console.log("Parando a esteira.");
