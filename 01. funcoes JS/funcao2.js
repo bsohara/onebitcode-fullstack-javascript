@@ -1,12 +1,10 @@
 let esteira = {
     velocidade: 0,
-    aceleracao: 0,
+    aceleracao: 5,
     aumentar: (velocidade, aceleracao) =>  esteira.velocidade += esteira.aceleracao,
     diminuir: (velocidade, aceeleracao) => esteira.velocidade -= esteira.aceleracao
 }
 let opcaoEscolhida;
-
-esteira.aceleracao = 5;
 
 let aumentarVelocidade = (aceleracao) => {
     esteira.aumentar(aceleracao);
@@ -24,16 +22,14 @@ let mostrarVelocAtual = (medida="km/s.") => {
 }
 
 let pararEsteira = () => {
+    console.log("Parando a esteira.");
     esteira.velocidade = 0;
 }
 
-function menuEsteira() {
+const funcaoPrincipal = () => {
   do {
-    opcaoEscolhida = parseInt(
-      prompt(
-        "Javascript Treadmill. Digite uma das opções:\n1-Aumentar a velocidade\n2-Diminuir a velocidade\n3-Mostrar velocidade atual\n4-Parar esteira"
-      )
-    );
+    opcaoEscolhida = parseInt(prompt("Javascript Treadmill. Digite uma das opções:\n1-Aumentar a velocidade\n2-Diminuir a velocidade\n3-Mostrar velocidade atual\n4-Parar esteira"));
+
     switch (opcaoEscolhida) {
       case 1:
         aumentarVelocidade();
@@ -57,7 +53,7 @@ function menuEsteira() {
   } while (opcaoEscolhida != 4);
 }
 
-menuEsteira();
+funcaoPrincipal();
 
 
 
