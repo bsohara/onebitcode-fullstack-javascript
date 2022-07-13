@@ -1,24 +1,44 @@
 let comidas = new Array();
-let comida = '';
+let comida = "";
 let opcaoEscolhida;
 
-const insere = (lista, valor) => lista.push(valor);
-const inserePrimeiro = (lista, valor) => lista.unshift(valor);
+let insere = () => Array.isArray(comidas) ? comidas.push(comida) : null;
+let inserePrimeiro = () => comidas.unshift(comida);
 
-const removeUltimo = (lista) => lista.pop();
-const removePrimeiro = (lista) => lista.shift();
+let removeUltimo = (comidas) => comidas.pop();
+let removePrimeiro = (comidas) => comidas.shift();
 
-const render = () => {
-    comidas = comidas.join(' - ')
-    setTimeout(() => {
-        alert(`Lista = ${comidas}`);
-    }, 4000);
+let mostraInseridos = () => {
+  alert(`${comidas}`);
 }
 
-function main() {
+(() => {
+  do {
+    opcaoEscolhida = parseInt(prompt("Adicionando comidas.\n\n1-Inserir comida\n2-Remover comida\n3-Mostrar comidas\n4-Sair do programa"));
+    
+    switch (opcaoEscolhida) {
+      case 1:
+        comida = prompt("Qual comida inserir? (emoji -> windows + .): ");
+        console.log("Inserindo a comida na lista.");
+        insere();
+        break;
 
-}
+      case 2:
+        console.log("Removendo a comida na lista.");
+        remove(comidas);
+        break;
 
+      case 3:
+        console.log("Mostrando as comidas inseridas.");
+        mostraInseridos();
+        break;
 
+      case 4:
+        alert("Saindo do programa. . .");
+        break;
 
-//render();
+      default:
+        alert("Opção inválida. Escolha uma das opções mostradas anteriormente.");
+    }
+  } while (opcaoEscolhida != 4);
+})();
