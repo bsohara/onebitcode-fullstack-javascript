@@ -2,16 +2,30 @@
 //let minhaLista = new Array();
 
 class player {
-    constructor(name, totalLvl, isIronman = false, isHCIM = false) {
+    //atributo(s)
+
+    //construtor 
+    constructor(name, hitpoints, totalLvl, isIronman = false, isHCIM = false) {
         this.name = name;
         this.totalLvl = totalLvl;
         this.isIronman = isIronman;
         this.isHCIM = isHCIM;
+        this.hitpoints = 9900;
+    }
+
+    //método(s)
+    isPoisoned(poisonDmg) {
+        this.hitpoints -= poisonDmg;
     }
 }
 
 let yotyan = new player("Yotyan", 2858);
 console.log(yotyan);
 
-let jonatas = new player("Jonatas", 2636, true);
-console.log(jonatas);
+yotyan.isPoisoned(230);
+console.log(yotyan);
+
+yotyan.isPoisoned(245);
+console.log(yotyan);
+
+
