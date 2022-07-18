@@ -11,6 +11,9 @@ const mostrarDados = () => {
 const inverter = () => {
     for(let i=pessoa.nome.length-1; i>=0; i--){
         pessoa.novoNome += pessoa.nome[i];
+        if(pessoa.nome[i] === pessoa.letraProibida){
+            break;
+        }
     }
     mostrarDados();
 }
