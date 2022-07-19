@@ -1,31 +1,25 @@
-//let minhaLista = [];
-//let minhaLista = new Array();
+//let myArray = []
+//- é mesma coisa que:
+//let myArray = new Array();
 
-class player {
-    //atributo(s)
-
-    //construtor 
-    constructor(name, hitpoints, totalLvl, isIronman = false, isHCIM = false) {
+class Spaceship {
+    //construtor
+    constructor(name) { //em crewQtd recebe um valor default já definido
         this.name = name;
-        this.totalLvl = totalLvl;
-        this.isIronman = isIronman;
-        this.isHCIM = isHCIM;
-        this.hitpoints = 9900;
+        this.velocity = 0;
     }
 
-    //método(s)
-    isPoisoned(poisonDmg) {
-        this.hitpoints -= poisonDmg;
+    speedUp(acceleration) {
+        let newVelocity = this.velocity += acceleration;
     }
 }
 
-let yotyan = new player("Yotyan", 2858);
-console.log(yotyan);
+let arthemis = new Spaceship("Arthemis");
 
-yotyan.isPoisoned(230);
-console.log(yotyan);
+console.log(arthemis);
 
-yotyan.isPoisoned(245);
-console.log(yotyan);
+arthemis.speedUp(10);
+console.log(arthemis);
 
-
+arthemis.speedUp(30);
+console.log(arthemis);
